@@ -7,7 +7,8 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-I\"C:\\Program Files (x86)\\IntelSWTools\\system_studio_2020\\OpenCL\\sdk\\include\"",
-                "\"C:\\Program Files (x86)\\IntelSWTools\\system_studio_2020\\OpenCL\\sdk\\lib\\x64\\OpenCL.lib\"",
+                "-L\"C:Windows\\System32\"",
+                "C:\\Windows\\System32\\OpenCL.dll",
                 "-g",
                 "${file}",
                 "-o",
