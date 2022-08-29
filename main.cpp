@@ -29,5 +29,6 @@ int main(int argc, char** argv) {
 	cl::Device defaultDevice = allDevices[0];
 	std::cout << "Using device: " << defaultDevice.getInfo<CL_DEVICE_NAME>() << "\n";
 
+	std::cout << "\n";
 	return 0;
 }
